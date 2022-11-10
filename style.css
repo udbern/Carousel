@@ -52,12 +52,12 @@ body{
 }
 
  .leftArrow, .rightArrow{
+    
     width: 50px;
-    background: #00000036;
+    background-color: transparent;
     position: absolute;
     left: 0;
     z-index: 1;
-    transition: background 0.1s;
     height: 72px;
     top: 50%;
     transform: translateY(-40%);
@@ -76,7 +76,9 @@ body{
 .leftArrow:hover,.rightArrow:hover{
     background: #fc0303a8;
     cursor: pointer;
+    transition: 1s;
 }
+
  .arrow{
     display: inline-block;
     border: 3px solid white;
